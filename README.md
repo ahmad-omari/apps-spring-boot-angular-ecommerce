@@ -1,1 +1,1 @@
-# apps-spring-boot-angular-ecommerce
+# full ecommerce project using Spring Boot and Angular

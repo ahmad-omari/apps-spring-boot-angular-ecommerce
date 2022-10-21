@@ -1,0 +1,133 @@
+**/My*.java
+**/target/
+.factorypath
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+**/*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+**/*.class
+
+# Package Files #
+**/src/main/webapp/**/*.jar
+**/*.war
+
+# gwt caches and compiled units #
+src/main/webapp/gwt_bree/
+**/gwt-unitCache/
+
+# boilerplate generated classes #
+**/.apt_generated/
+
+
+# more caches and things from deploy #
+**/src/main/webapp/WEB-INF/deploy/
+**/src/main/webapp/WEB-INF/classes/
+
+#compilation logs
+**/.gwt/
+
+#gwt junit compilation files
+**/www-test/
+
+#old GWT (1.5) created this dir
+
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/.mvn/timing.properties
+
+# Eclipse
+**/.classpath
+**/.project
+**/.settings/
+
+# Intellij
+**/.idea/
+**/*.iml
+**/*.iws
+
+.idea/**/*.*
+**/*.iml
+**/*.iws
+**/*.log
+**/JFWLogs/
+
+**/bin/
+
+**/**/war/
+
+**/core-server/overlays/
+
+##CICD
+artifacts
+.tomcat
+.jetty
+
+.DS_STORE
+
+/dist/
+/bazel-out
+/integration/bazel/bazel-*
+*.log
+node_modules
+
+# CircleCI temporary file for cache key computation.
+# See `save_month_to_file` in `.circleci/config.yml`.
+month.txt
+
+# Include when developing application packages.
+pubspec.lock
+.c9
+.idea/
+.devcontainer/*
+!.devcontainer/README.md
+!.devcontainer/recommended-devcontainer.json
+!.devcontainer/recommended-Dockerfile
+.settings/
+.vscode
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+*.swo
+*.swp
+modules/.settings
+modules/.vscode
+.vimrc
+.nvimrc
+
+# Don't check in secret files
+*secret.js
+
+# Ignore npm/yarn debug log
+npm-debug.log
+yarn-error.log
+
+# build-analytics
+.build-analytics
+
+# rollup-test output
+/modules/rollup-test/dist/
+
+# User specific bazel settings
+.bazelrc.user
+
+# User specific ng-dev settings
+.ng-dev.user*
+
+.notes.md
+baseline.json
+
+# Ignore .history for the xyz.local-history VSCode extension
+.history
+
+# Husky
+.husky/_
